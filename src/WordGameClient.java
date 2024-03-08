@@ -7,6 +7,7 @@ import java.net.Socket;
 public class WordGameClient {
     public static void main(String[] args) {
         try {
+
             Socket socket = new Socket("127.0.0.1", 7777); // Connect to the server
             System.out.println("Connected to the server...");
 
